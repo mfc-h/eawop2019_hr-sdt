@@ -1,6 +1,9 @@
 # The Positive Effects of HR on Organizational Commitment using Basic Need Satisfaction as Mediator
+
 # Poster Presentation at the EAWOP Conference, 29th May to 1st June 2019, Turin, Italy
 # Matthias F.C. Hudecek, Mona Lehleiter & Birgit M. Stephan
+
+# R Code
 
 # Load packages
 library(psych)
@@ -48,15 +51,12 @@ favstats(~Mentoring, data=sdt)
 
 
 # Select variables for correlation matrix
-corAutonomy <- select(sdt, 75, 60, 78:80, 82)
-corCompetence <- select(sdt, 77, 60, 78:80, 82)
-corRelatedness <- select(sdt, 76, 60, 78:80, 82)
+cortable <- select(sdt, 75:80, 60, 82)
 
 # Correlation
-corr.test(corAutonomy)
-corr.test(corCompetence)
-corr.test(corRelatedness)
-
+corr.test(cortable)
+write.csv(correlation$r, file = "correlationR.csv") 
+write.csv(correlation$p, file = "correlationP.csv")
 
 
 # Mediation analysis ------------------------------------------------------
