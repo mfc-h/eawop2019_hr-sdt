@@ -8,7 +8,7 @@ In this repository, you will find the poster of the presentation, data, code and
 
 ## Authors
 
-* **[Matthias Hudecek]**(https://www.mhudecek.com)
+* **[Matthias Hudecek](https://www.mhudecek.com)**
 * **Mona Lehleiter**
 * **Birgit Stephan**
 
