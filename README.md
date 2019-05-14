@@ -2,13 +2,13 @@
 
 This is an research project to analyze the effects of different HR methods on Affective Organiziational Commitment. Basic need satisfaction in terms of Self-Determination Theory is used as a mediator. 
 
-The results were presented at the [EAWOP Congress](http://www.http://eawop2019.org) (29th May to 1st June 2019, Turin, Italy). 
+The results were presented at the [EAWOP Congress](http://eawop2019.org) (29th May to 1st June 2019, Turin, Italy). 
 
 In this repository, you will find the poster of the presentation, data, code and additional output.
 
 ## Authors
 
-* **Matthias Hudecek**
+* **[Matthias Hudecek]**(https://www.mhudecek.com)
 * **Mona Lehleiter**
 * **Birgit Stephan**
 
